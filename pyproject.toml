@@ -1,0 +1,23 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bcv-scraper"
+version = "0.1.0"
+authors = [
+  { name="Tu Nombre", email="tu@email.com" },
+]
+description = "A simple scraper for the official exchange rate from Venezuela's Central Bank (BCV)."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.32.0",
+    "beautifulsoup4>=4.12.0",
+]
